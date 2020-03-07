@@ -17,11 +17,7 @@
     <!-- Question 1 -->
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:fontFamily="sans-serif"
-        android:textColor="@color/color_text"
+        style="@style/questionStyle"
         android:text="1. Who gave Bhishma the boon that he would die only when he wished?"/>
 
     <RadioGroup
@@ -61,17 +57,13 @@
     <!-- Question 2 -->
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/questionStyle"
         android:text="2. Who was the daughter of Dhritarashtra?"
-        android:textAppearance="?android:textAppearanceMedium"/>
+        />
 
     <RadioGroup
         android:id="@+id/num_two_radio_group"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="16dp">
+        style="@style/radioStyle">
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -100,19 +92,15 @@
     <!-- Question 3 -->
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/questionStyle"
         android:text="3. The great war lasted for?"
-        android:textAppearance="?android:textAppearanceMedium"/>
+        />
 
     <EditText
         android:id="@+id/edit_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginTop="8dp"
         android:hint="Please enter your answer"
-        android:inputType="text"/>
+        android:inputType="text"
+        style="@style/radioStyle" />
 
     <!-- Question 4 -->
 
@@ -152,19 +140,15 @@
         android:layout_marginBottom="16sp"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/questionStyle"
         android:text="5. Who recited the Mahabharata?"
-        android:textAppearance="?android:textAppearanceMedium"/>
+        />
 
     <!-- Question 5 -->
 
     <RadioGroup
         android:id="@+id/num_five_radio_group"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="16dp">
+        style="@style/radioStyle">
 
         <RadioButton
             android:layout_width="wrap_content"
