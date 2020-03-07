@@ -17,8 +17,10 @@
     <!-- Question 1 -->
 
     <TextView
+
         style="@style/questionStyle"
         android:text="1. Who gave Bhishma the boon that he would die only when he wished?"/>
+
 
     <RadioGroup
         android:id="@+id/num_one_radio_group"
@@ -57,6 +59,7 @@
     <!-- Question 2 -->
 
     <TextView
+
         style="@style/questionStyle"
         android:text="2. Who was the daughter of Dhritarashtra?"
         />
@@ -64,6 +67,8 @@
     <RadioGroup
         android:id="@+id/num_two_radio_group"
         style="@style/radioStyle">
+/>
+
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -92,15 +97,22 @@
     <!-- Question 3 -->
 
     <TextView
+
         style="@style/questionStyle"
         android:text="3. The great war lasted for?"
         />
 
+
+
     <EditText
         android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
         android:hint="Please enter your answer"
-        android:inputType="text"
-        style="@style/radioStyle" />
+        android:inputType="text"/>
+
 
     <!-- Question 4 -->
 
@@ -140,14 +152,17 @@
         android:layout_marginBottom="16sp"/>
 
     <TextView
+
         style="@style/questionStyle"
         android:text="5. Who recited the Mahabharata?"
         />
+
 
     <!-- Question 5 -->
 
     <RadioGroup
         android:id="@+id/num_five_radio_group"
+
         style="@style/radioStyle">
 
         <RadioButton

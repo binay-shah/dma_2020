@@ -6,6 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
         
     </style>
 
@@ -24,6 +25,12 @@
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginBottom">16dp</item>
     </style>
+
+
+
+
+        
+
 
 
 </resources>

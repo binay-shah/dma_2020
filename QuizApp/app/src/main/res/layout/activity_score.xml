@@ -11,15 +11,20 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="70"
         android:gravity="center"
         android:textSize="70sp"
         android:textColor="@color/color_white"
         android:background="@drawable/circle"
+=======
+        android:text="TextView"
+>>>>>>> f16d8fefcca1a66b177aaedb4a06716f30ecc17d
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+<<<<<<< HEAD
 
     <TextView
         android:id="@+id/textView2"
@@ -36,4 +41,6 @@
         android:text="Button"
         tools:layout_editor_absoluteX="167dp"
         tools:layout_editor_absoluteY="649dp" />
+=======
+>>>>>>> f16d8fefcca1a66b177aaedb4a06716f30ecc17d
 </androidx.constraintlayout.widget.ConstraintLayout>
